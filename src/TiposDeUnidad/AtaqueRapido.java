@@ -1,9 +1,9 @@
 package TiposDeUnidad;
 
 import ClasesGenerales.CaracteristicasComunes;
-import Divisiones.Caballeria;
+import Ejercito.ListaEjercito;
 
-public class AtaqueRapido extends Caballeria {
+public class AtaqueRapido extends ListaEjercito {
 
     CaracteristicasComunes caracteristicasComunes;
 

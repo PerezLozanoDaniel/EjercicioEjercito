@@ -5,7 +5,7 @@ import Interfaces.*;
 
 public class CaracteristicasComunes implements IBlindado, IDestructor, IMovil, IPrecioUnidad {
     private String nombreUnidad;
-    private String descripcion;
+    TipoUnidad descripcion;
     private double velocidad;
     private double blindaje;
     private double potenciaDeFuego;

@@ -1,26 +1,24 @@
 
-import ClasesGenerales.*;
 import ClasesGenerales.NuevaUnidad;
-import Divisiones.Caballeria;
-import TiposDeUnidad.*;
+import Ejercito.ListaEjercito;
 
 public class Main {
     public static void main(String[] args) {
 
         NuevaUnidad nuevaUnidad=new NuevaUnidad();
 
-        Caballeria divisionCaballeria =new Caballeria();
+        ListaEjercito listaEjercito =new ListaEjercito();
 
        // AtaqueRapido Tanque_Pesado_Trueno = new AtaqueRapido(new CaracteristicasComunes("Tanque Pesado Trueno", "Ataque Rápido", 5.5, 5.5, 9.5, 12800));
 
 
 
-        divisionCaballeria.agregarUnidad(nuevaUnidad.nuevoAtaqueRapido());
-        divisionCaballeria.agregarUnidad(nuevaUnidad.nuevoTransporteTropas());
-        divisionCaballeria.agregarUnidad(nuevaUnidad.nuevoAtaqueRapidoManual());
+        listaEjercito.agregarUnidad(nuevaUnidad.nuevaUnidad());
+       /* listaEjercito.agregarUnidad(nuevaUnidad.nuevoTransporteTropas());
+        listaEjercito.agregarUnidad(nuevaUnidad.nuevoAtaqueRapidoManual());*/
 
 
-        System.out.println(divisionCaballeria);
+        System.out.println(listaEjercito);
         }
 
 }
